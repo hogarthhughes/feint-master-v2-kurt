@@ -1,0 +1,269 @@
+/**
+ * Global Reset of all HTML Elements
+ */
+html,body {
+   
+  
+  
+  
+    font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+  
+  
+  
+}
+div,span,object,iframe,img,table,caption,thead,tbody,tfoot,tr,td,article,aside,canvas,details,figure,hgroup,menu,nav,footer,header,section,summary,mark,audio,video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,code,del,dfn,em,ins,q,samp,small,strong,sub,sup,b,i,hr,dl,dt,dd,ol,ul,li,fieldset,legend,label {
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,aside,canvas,figure,img,figcaption,hgroup,footer,header,nav,section,audio,video {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table caption,table th,table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+#slides {
+  position: relative;
+}
+#slides .slides-container {
+  display: none;
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  width: 100%;
+}
+.slides-navigation a {
+  position: absolute;
+  display: block;
+}
+.slides-navigation a.prev {
+  left: 0;
+}
+.slides-navigation a.next {
+  right: 0;
+}
+
+
+.navie {
+  margin-left: 10px;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+}
+
+.navie ul {
+    list-style-type: none;
+    padding: 0;
+    margin: none;
+}
+
+
+.navie a.link {
+	font-size:14px; text-decoration:none; background-color: none; font-family: 'courier new'; color: #fff; margin-left: 10px;
+}
+
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  margin-bottom:-2px;
+}
+.slides-pagination a {
+  border: none;
+  /*border-radius: 15px;*/
+  width: 30px;
+  height: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: url("images/button4.png");
+  margin: 2px;
+  overflow: hidden;
+  text-indent: -100%;
+}
+.slides-pagination a.current {
+  background: none;
+  background-image: url("images/selectbutton4.png");
+}
+
+
+/********* CUSTOM STYLES BEGIN HERE ********/
+
+video {
+  display:block !important;
+}
+
+.vimeo-div #play {
+/*	width:150px;
+	height:80px;
+	position:absolute;
+margin:-40px 0 0 -75px; 
+	  left:50%;
+	  top:50%;
+	  display: block;*/
+	  z-index: 1000000;
+}
+#play:hover {
+  border:0px solid #ccc;
+}
+
+
+
+---
+
+ul.slides-container {
+	display: block;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	
+}
+
+
+.page {
+	position:absolute;
+    margin:-300px 0 0 -300px;
+    width:600px;
+    height:600px;
+    left:50%;
+    top:50%;
+    background: none;
+    font-family: courier new;
+	font-size: 12px;
+	color: white;
+	padding: 10px;
+}
+
+
+.page h1 {
+	font-family: courier new;
+	font-size: 30px;
+	color: white;
+}
+
+
+
+.pageblack {
+	position:absolute;
+    margin:-300px 0 0 -300px;
+    width:600px;
+    height:600px;
+    left:50%;
+    top:50%;
+    background: none;
+    font-family: courier new;
+	font-size: 10px;
+	color: black;
+	padding: 10px;
+}
+
+
+.pageblack h1 {
+	font-family: courier new;
+	font-size: 30px;
+	color: white;
+}
+
+.highlightme { background-color:#000; }
+
+
+/* Webkit */
+::selection {
+    background: #fff30a;
+    color: #000000;
+}
+/* Gecko/Mozilla */
+::-moz-selection {
+    background: #fff200;
+    color: #000;
+}
+
+
+#slides .slides-container {
+  display: none;
+  
+.container {
+height: 100%;
+  
+}
+
+
+
+
+
+@font-face {
+    font-family: 'st_marie_thinthin';
+    src: url('stmarie-thin-webfont.eot');
+    src: url('stmarie-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('stmarie-thin-webfont.woff') format('woff'),
+         url('stmarie-thin-webfont.ttf') format('truetype'),
+         url('stmarie-thin-webfont.svg#st_marie_thinthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
