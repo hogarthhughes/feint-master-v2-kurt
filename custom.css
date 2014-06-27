@@ -141,14 +141,14 @@ img {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background-image: url("images/button4.png");
+  background-image: url("images/button5.png");
   margin: 2px;
   overflow: hidden;
   text-indent: -100%;
 }
 .slides-pagination a.current {
   background: none;
-  background-image: url("images/selectbutton4.png");
+  background-image: url("images/selectbutton5.png");
 }
 
 
@@ -195,6 +195,21 @@ ul.slides-container {
     background: none;
     font-family: courier new;
 	font-size: 12px;
+	color: white;
+	padding: 10px;
+}
+
+
+#forestpage {
+	position:absolute;
+    margin:-25px 0 0 -200px;
+    width:400px;
+    height:50px;
+    left:50%;
+    top:50%;
+    background: black;
+    font-family: courier new;
+	font-size: 45px;
 	color: white;
 	padding: 10px;
 }
