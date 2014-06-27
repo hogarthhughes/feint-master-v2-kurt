@@ -89,7 +89,7 @@ He then went on to "apologize." But this apology was completely invalidated in t
 				<div id="memory-one"></div>	
 			</li>
 
-<!--SLIDE THREE
+<!--SLIDE THREE-->
 
       		<li id="perf-page">
       			<div id="perf"></div>
@@ -117,7 +117,7 @@ He then went on to "apologize." But this apology was completely invalidated in t
 		       </div>
 		    </li>
 
-<!--SLIDE FOUR-->
+<!--SLIDE FOUR
 
 		    <li id="gun-page">
 		       <div id="gun"></div>
@@ -178,23 +178,43 @@ The story takes place in a mythical Viking world where a young Viking teenager n
       });
     
   /*    $(document).on('animated.slides', function() {
+<<<<<<< HEAD
 	      	
+=======
+<<<<<<< HEAD
+	      	
+=======
+	      	$('.video_background').pause();
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 	      	
 	      
       })*/
       
+<<<<<<< HEAD
 $(document).on('animated.slides', function(slide) {
      slideIndex = $('#slides').superslides('current');
      $("video").each(function(){
 	 $(this).get(0).pause();
 });
      
+=======
+
+$(document).on('animated.slides', function(slide) {
+     slideIndex = $('#slides').superslides('size');
+     $("video").each(function(){
+	     $(this).get(0).pause();
+	    });     
+>>>>>>> FETCH_HEAD
     
     
     
     $('.video_background').get(slideIndex).play();
      
+<<<<<<< HEAD
 	
+=======
+>>>>>>> FETCH_HEAD
 });
       
     });
@@ -205,8 +225,8 @@ $(document).on('animated.slides', function(slide) {
     <script type="text/javascript">
 	    $(document).ready(function() {
 		    $(".vimeo").fancybox({
-			    width: 2500,
-			    height: 1200,
+			    width: 100%,
+			    height: 100%,
 			    type: 'iframe',
 			    fitToView : true
 			});
