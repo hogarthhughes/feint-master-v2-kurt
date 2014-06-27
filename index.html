@@ -44,7 +44,7 @@
 		<ul class="slides-container">
 
 
-<!--SLIDE ONE-->
+<!--SLIDE ONE
 
 			<li id="reel-page">
 				<div id="reel"></div>
@@ -93,8 +93,7 @@ He then went on to "apologize." But this apology was completely invalidated in t
 
       		<li id="perf-page">
       			<div id="perf"></div>
-		       <!--img src="./images/mountain.jpg" alt="Mountain"
-		       <div class="container">
+		     		       <div class="container">
 			       <div class="page">
 		     			<center><h1>The Best of Times</h1></center>
 		     			<br>
@@ -142,19 +141,9 @@ The story takes place in a mythical Viking world where a young Viking teenager n
 			<li id="forest-page">
 				<div id="forest"></div>
 				<div class="container">
-					<div class="page">
+					<div id="forestpage">
 					
-		     			<center><h1>The Best of Times</h1></center>
-		     			<br>
-	   	     		    <p>"The Best of Times" is the first single release from Styx's 1981 triple-platinum album Paradise Theater. It reached #1 in Canada on the RPM national singles chart, their second #1 in that country,[1] and #3 on the U.S. Billboard Hot 100.</p>
-	   	     		    <br>
-	   	     		    <p>How to Train Your Dragon is a 2010 American 3D computer-animated action-fantasy film by DreamWorks Animation loosely based on the British book series of the same name by Cressida Cowell. The film was directed by Chris Sanders and Dean DeBlois, the duo who directed Disney's Lilo & Stitch. It stars the voices of Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera, Jonah Hill, T.J. Miller, Kristen Wiig, and Christopher Mintz-Plasse.
-There was apparently a point where he referred to me specifically as a "c--t," but he ended up deleting it before anyone got a screenshot. But yes. He told a friend of mine to kill herself, told another to eat a bag of sh-t, and completely went on the attack, lacking any modicum of class or decorum. He then blocked anyone who called him out (myself included) regardless of whether their comment was rude or polite.
-
-You know what? It doesn’t feel good to be called out publicly when you do something wrong, especially by multiple people. It’s uncomfortable. But these responses are completely unacceptable.
-
-He then went on to "apologize." But this apology was completely invalidated in the comment section, where he waxed poetic about people being oversensitive and pandered to his fans instead. I for one am extremely disappointed by the fact that he’s obviously not learned anything from this incident.
-						</p> 
+		     			<center><p>Mystic Forest</p></center>
 							     		
 					</div>
 				</div>
@@ -187,6 +176,27 @@ He then went on to "apologize." But this apology was completely invalidated in t
       $slides.superslides({
         hashchange: true
       });
+    
+  /*    $(document).on('animated.slides', function() {
+	      	
+	      	
+	      
+      })*/
+      
+$(document).on('animated.slides', function(slide) {
+     slideIndex = $('#slides').superslides('current');
+     $("video").each(function(){
+	 $(this).get(0).pause();
+});
+     
+    
+    
+    
+    $('.video_background').get(slideIndex).play();
+     
+	
+});
+      
     });
     </script>
     
