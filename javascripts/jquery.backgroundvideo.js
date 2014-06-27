@@ -27,7 +27,7 @@
 
     var buildVideo = function () {
       var html = '';
-      html += '<video class="'+plugin.settings.videoclass+'" preload="auto" autoplay="autoplay" loop="loop"';
+      html += '<video class="'+plugin.settings.videoclass+'" preload="auto" loop="loop"';
 
       if (plugin.settings.poster) {
         html += ' poster="' + plugin.settings.poster + '" ';

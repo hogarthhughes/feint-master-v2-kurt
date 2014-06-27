@@ -178,24 +178,26 @@ The story takes place in a mythical Viking world where a young Viking teenager n
       });
     
   /*    $(document).on('animated.slides', function() {
+<<<<<<< HEAD
 	      	
+=======
+	      	$('.video_background').pause();
+>>>>>>> FETCH_HEAD
 	      	
 	      
       })*/
       
+
 $(document).on('animated.slides', function(slide) {
-     slideIndex = $('#slides').superslides('current');
-     var slideNumber = 3;
-     for (a = 0; a < slideNumber; a++) { 
-    $('.video_background').get(a).pause();
-}
-     
+     slideIndex = $('#slides').superslides('size');
+     $("video").each(function(){
+	     $(this).get(0).pause();
+	    });     
     
     
     
     $('.video_background').get(slideIndex).play();
      
-	
 });
       
     });
@@ -206,8 +208,8 @@ $(document).on('animated.slides', function(slide) {
     <script type="text/javascript">
 	    $(document).ready(function() {
 		    $(".vimeo").fancybox({
-			    width: 2500,
-			    height: 1200,
+			    width: 100%,
+			    height: 100%,
 			    type: 'iframe',
 			    fitToView : true
 			});
