@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,100' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <title>Feint</title>
   <!--script src="http://code.jquery.com/jquery-latest.min.js"></script-->
@@ -13,6 +14,10 @@
   <link rel="stylesheet" type="text/css" href="plugins/fancybox2/jquery.fancybox.css" media="screen" />
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="superslides.css">
+  
+  <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+  
 	<!—[if lt IE 9]>
 		<script src=“http://html5shiv.googlecode.com/svn/trunk/html5.js”></script>
 	<![endif]—>
@@ -24,11 +29,10 @@
 
 		<nav class="navie">
 			<div id="logo">
-		        <a href="#reel"><img style="height:auto; width:auto; max-width:60px; max-height:60px; margin-top:20px; margin-left:0px;" src="images/logo.png"></img></a>
+		        <a href="#reel-page"><img style="height:auto; width:auto; max-width:70px; max-height:70px; margin-top:10px; margin-left:0px;" src="images/logo.png"></img></a>
 		    </div>
-		    <ul>
-		        <li><a href="http://www.vimeo.com/kurtzhuang" class="link" >Vimeo</a></li>
-		        <br>
+		    <ul id="links">
+		        <!--li><a href="http://www.vimeo.com/kurtzhuang" class="link" >Vimeo</a></li-->
 		        <li><a href="#reel-page" class="link">I</a></li>
 		        <li><a href="#memory-one-page" class="link">II</a></li>
 		        <li><a href="#perf-page" class="link">III</a></li>
@@ -44,38 +48,23 @@
 		<ul class="slides-container">
 
 
-<!--SLIDE ONE
+<!--SLIDE ONE-->
 
 			<li id="reel-page">
 				<div id="reel"></div>
-				<div class="container">
-					<div class="page">
-		     			<center><h1>The Best of Times</h1></center>
-		     			<br>
-	   	     		    <p>"The Best of Times" is the first single release from Styx's 1981 triple-platinum album Paradise Theater. It reached #1 in Canada on the RPM national singles chart, their second #1 in that country,[1] and #3 on the U.S. Billboard Hot 100.</p>
-	   	     		    <br>
-	   	     		    <p>How to Train Your Dragon is a 2010 American 3D computer-animated action-fantasy film by DreamWorks Animation loosely based on the British book series of the same name by Cressida Cowell. The film was directed by Chris Sanders and Dean DeBlois, the duo who directed Disney's Lilo & Stitch. It stars the voices of Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera, Jonah Hill, T.J. Miller, Kristen Wiig, and Christopher Mintz-Plasse.
-		   	     		<br>
-The story takes place in a mythical Viking world where a young Viking teenager named Hiccup aspires to follow his tribe's tradition of becoming a dragon slayer. After finally capturing his first dragon, and with his chance at finally gaining the tribe's acceptance, he finds that he no longer has the desire to kill it and instead befriends it.
-						<br>
-The film was released March 26, 2010 and was a critical and commercial success, earning critical acclaim from film critics and audiences and earning nearly $500 million worldwide. It was nominated for the Academy Award for Best Animated Feature and Best Original Score at the 83rd Academy Awards, but lost to Toy Story 3 and The Social Network, respectively. The movie also won ten Annie Awards, including Best Animated Feature.
-						<br>
-A sequel, How to Train Your Dragon 2, was written and directed by Dean DeBlois and released on June 13, 2014 and a second sequel is to be released on June 17, 2016.[2][3] The film's success has also inspired other merchandise, including a video game and a TV series.
-						<br>
-There was apparently a point where he referred to me specifically as a "c--t," but he ended up deleting it before anyone got a screenshot. But yes. He told a friend of mine to kill herself, told another to eat a bag of sh-t, and completely went on the attack, lacking any modicum of class or decorum. He then blocked anyone who called him out (myself included) regardless of whether their comment was rude or polite.
-
-You know what? It doesn’t feel good to be called out publicly when you do something wrong, especially by multiple people. It’s uncomfortable. But these responses are completely unacceptable.
-
-He then went on to "apologize." But this apology was completely invalidated in the comment section, where he waxed poetic about people being oversensitive and pandered to his fans instead. I for one am extremely disappointed by the fact that he’s obviously not learned anything from this incident.
-						</p>  		     		
+				<img src="content/reel_logo2.png" id="reely" style="width:500px !important; height:250px !important;" />
+					<div class="container">
+							<a class="vimeo" href="http://player.vimeo.com/video/92696045?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1" style="z-index:999999999;"><img src="content/play.svg" id="" style="width:640px !important; z-index: 99999999; height:64px !important; margin-top: 125px;" /></a>	
+							<div class="page">
+		     		
+	  		
+							</div>
 					</div>
-				</div>
 			</li>
 
 <!--SLIDE TWO-->
 
 			<li id="memory-one-page">
-				
 				
 
 				<div class="container">
@@ -89,35 +78,18 @@ He then went on to "apologize." But this apology was completely invalidated in t
 				<div id="memory-one"></div>	
 			</li>
 
-<!--SLIDE THREE-->
+<!--SLIDE THREE
 
-      		<li id="perf-page">
+      		<li id="#">
       			<div id="perf"></div>
 		     		       <div class="container">
 			       <div class="page">
-		     			<center><h1>The Best of Times</h1></center>
-		     			<br>
-	   	     		    <p>"The Best of Times" is the first single release from Styx's 1981 triple-platinum album Paradise Theater. It reached #1 in Canada on the RPM national singles chart, their second #1 in that country,[1] and #3 on the U.S. Billboard Hot 100.</p>
-	   	     		    <br>
-	   	     		    <p>How to Train Your Dragon is a 2010 American 3D computer-animated action-fantasy film by DreamWorks Animation loosely based on the British book series of the same name by Cressida Cowell. The film was directed by Chris Sanders and Dean DeBlois, the duo who directed Disney's Lilo & Stitch. It stars the voices of Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera, Jonah Hill, T.J. Miller, Kristen Wiig, and Christopher Mintz-Plasse.
-		   	     		<br>
-The story takes place in a mythical Viking world where a young Viking teenager named Hiccup aspires to follow his tribe's tradition of becoming a dragon slayer. After finally capturing his first dragon, and with his chance at finally gaining the tribe's acceptance, he finds that he no longer has the desire to kill it and instead befriends it.
-						<br>
-The film was released March 26, 2010 and was a critical and commercial success, earning critical acclaim from film critics and audiences and earning nearly $500 million worldwide. It was nominated for the Academy Award for Best Animated Feature and Best Original Score at the 83rd Academy Awards, but lost to Toy Story 3 and The Social Network, respectively. The movie also won ten Annie Awards, including Best Animated Feature.
-						<br>
-A sequel, How to Train Your Dragon 2, was written and directed by Dean DeBlois and released on June 13, 2014 and a second sequel is to be released on June 17, 2016.[2][3] The film's success has also inspired other merchandise, including a video game and a TV series.
-						<br>
-There was apparently a point where he referred to me specifically as a "c--t," but he ended up deleting it before anyone got a screenshot. But yes. He told a friend of mine to kill herself, told another to eat a bag of sh-t, and completely went on the attack, lacking any modicum of class or decorum. He then blocked anyone who called him out (myself included) regardless of whether their comment was rude or polite.
-
-You know what? It doesn’t feel good to be called out publicly when you do something wrong, especially by multiple people. It’s uncomfortable. But these responses are completely unacceptable.
-
-He then went on to "apologize." But this apology was completely invalidated in the comment section, where he waxed poetic about people being oversensitive and pandered to his fans instead. I for one am extremely disappointed by the fact that he’s obviously not learned anything from this incident.
-						</p>  		     		
+ 		     		
 					</div>
 		       </div>
 		    </li>
 
-<!--SLIDE FOUR
+<!--SLIDE FOUR-->
 
 		    <li id="gun-page">
 		       <div id="gun"></div>
@@ -161,6 +133,10 @@ The story takes place in a mythical Viking world where a young Viking teenager n
 <!--////////////////////   SUPERSLIDES JS   ////////////////////////////-->
 
 	<script src="javascripts/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+	
+
+  
+  
 	<script>
     $(function() {
       var $slides = $('#slides');
@@ -176,45 +152,23 @@ The story takes place in a mythical Viking world where a young Viking teenager n
       $slides.superslides({
         hashchange: true
       });
-    
-  /*    $(document).on('animated.slides', function() {
-<<<<<<< HEAD
-	      	
-=======
-<<<<<<< HEAD
-	      	
-=======
-	      	$('.video_background').pause();
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
-	      	
-	      
-      })*/
       
-<<<<<<< HEAD
+
+
+
+
+//CODE FOR SINGLE BGVID at a time     
+
 $(document).on('animated.slides', function(slide) {
      slideIndex = $('#slides').superslides('current');
      $("video").each(function(){
 	 $(this).get(0).pause();
 });
-     
-=======
 
-$(document).on('animated.slides', function(slide) {
-     slideIndex = $('#slides').superslides('size');
-     $("video").each(function(){
-	     $(this).get(0).pause();
-	    });     
->>>>>>> FETCH_HEAD
-    
-    
     
     $('.video_background').get(slideIndex).play();
      
-<<<<<<< HEAD
-	
-=======
->>>>>>> FETCH_HEAD
+
 });
       
     });
@@ -225,8 +179,8 @@ $(document).on('animated.slides', function(slide) {
     <script type="text/javascript">
 	    $(document).ready(function() {
 		    $(".vimeo").fancybox({
-			    width: 100%,
-			    height: 100%,
+			    width: 2500,
+			    height: 2500,
 			    type: 'iframe',
 			    fitToView : true
 			});
@@ -284,5 +238,12 @@ $(document).on('animated.slides', function(slide) {
 		    }); 
 		});
 	</script>
+	
+	  <!--script>
+    $('#slides').superslides({
+      animation: 'fade'
+    });
+  </script-->
+	
 </body>
 </html>
